@@ -1,0 +1,66 @@
+.donatebtn{
+    background-color: red;
+}
+.bg-hero{
+    background-image: url('./public/bg-hero.jpg');
+    background-size: cover;
+}
+
+.overlay{
+    z-index: 1;
+    background-color: lightcoral;
+    opacity: 0.5;
+}
+.overlay-content{
+    z-index: 100;
+    opacity: 1 !important;
+    position: relative;
+    color: white;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel-inner {
+    overflow: hidden;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("./public/parallax.jpeg");
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-hero{
+    /* The image used */
+    background-image: url("./public/bg-hero.jpg");
+    opacity:0.7;
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-sec{
+    background-color: lightcoral;
+}
+.equal-height {
+    height: 250px;
+    /* Set desired uniform height */
+}
